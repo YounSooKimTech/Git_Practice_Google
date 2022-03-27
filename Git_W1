@@ -1,0 +1,18 @@
+# Make directory and change to the directory
+$ mkdir my-git-repo
+$ cd my-git-repo
+$ git init
+
+# Git configuration
+$ git config --global user.name "name"
+$ git config --global user.email "user@email.com"
+
+# Git Operation
+nano README
+--> input text --> ctrl+O/Enter/Ctrl+X
+git add README
+git commit -m "message"
+
+# check the difference and log
+$ git diff README
+$ git log
